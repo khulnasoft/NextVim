@@ -8,8 +8,8 @@ import (
 	"net"
 	"sync"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
-	servermanagement "go.khulnasoft.com/nextvim/vim-arcade/pkg/server-management"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
+	servermanagement "github.com/khulnasoft/nextvim/vim-arcade/pkg/server-management"
 )
 
 type MatchMakingServer struct {

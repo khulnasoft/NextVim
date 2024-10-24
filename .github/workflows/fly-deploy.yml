@@ -4,7 +4,7 @@ name: Fly Deploy
 on:
   push:
     branches:
-      - main
+      - arcade
 jobs:
   deploy:
     name: Deploy app

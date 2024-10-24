@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/quick-math"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/quick-math"
 )
 
 var Vec = quickmath.NewVec2

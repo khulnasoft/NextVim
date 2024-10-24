@@ -7,10 +7,10 @@ import (
 	"strconv"
 
 	"github.com/joho/godotenv"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/ctrlc"
-	gameserverstats "go.khulnasoft.com/nextvim/vim-arcade/pkg/game-server-stats"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/pretty-log"
-	servermanagement "go.khulnasoft.com/nextvim/vim-arcade/pkg/server-management"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/ctrlc"
+	gameserverstats "github.com/khulnasoft/nextvim/vim-arcade/pkg/game-server-stats"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/pretty-log"
+	servermanagement "github.com/khulnasoft/nextvim/vim-arcade/pkg/server-management"
 )
 
 

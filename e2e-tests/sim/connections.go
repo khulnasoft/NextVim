@@ -7,8 +7,8 @@ import (
 	"math/rand"
 	"sync"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/api"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/api"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
 )
 
 var clientId uint64 = 0

@@ -8,14 +8,14 @@ import (
 	"os"
 	"time"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/e2e-tests/sim"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/ctrlc"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/dummy"
-	gameserverstats "go.khulnasoft.com/nextvim/vim-arcade/pkg/game-server-stats"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/matchmaking"
-	prettylog "go.khulnasoft.com/nextvim/vim-arcade/pkg/pretty-log"
-	servermanagement "go.khulnasoft.com/nextvim/vim-arcade/pkg/server-management"
+	"github.com/khulnasoft/nextvim/vim-arcade/e2e-tests/sim"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/ctrlc"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/dummy"
+	gameserverstats "github.com/khulnasoft/nextvim/vim-arcade/pkg/game-server-stats"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/matchmaking"
+	prettylog "github.com/khulnasoft/nextvim/vim-arcade/pkg/pretty-log"
+	servermanagement "github.com/khulnasoft/nextvim/vim-arcade/pkg/server-management"
 )
 
 func createMatchMaking() (servermanagement.LocalServers, *gameserverstats.Sqlite, *matchmaking.MatchMakingServer) {

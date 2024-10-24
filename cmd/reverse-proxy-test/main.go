@@ -9,9 +9,9 @@ import (
 	"net"
 	"os"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/dummy"
-	prettylog "go.khulnasoft.com/nextvim/vim-arcade/pkg/pretty-log"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/dummy"
+	prettylog "github.com/khulnasoft/nextvim/vim-arcade/pkg/pretty-log"
 )
 
 type Proxied struct {

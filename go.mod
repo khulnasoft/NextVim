@@ -1,4 +1,4 @@
-module go.khulnasoft.com/nextvim/vim-arcade
+module github.com/khulnasoft/nextvim/vim-arcade
 
 go 1.23.0
 

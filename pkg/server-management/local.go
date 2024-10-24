@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/cmd"
-	gameserverstats "go.khulnasoft.com/nextvim/vim-arcade/pkg/game-server-stats"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/cmd"
+	gameserverstats "github.com/khulnasoft/nextvim/vim-arcade/pkg/game-server-stats"
 )
 
 type LocalServers struct {

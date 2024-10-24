@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/e2e-tests/sim"
-	gameserverstats "go.khulnasoft.com/nextvim/vim-arcade/pkg/game-server-stats"
-	servermanagement "go.khulnasoft.com/nextvim/vim-arcade/pkg/server-management"
+	"github.com/khulnasoft/nextvim/vim-arcade/e2e-tests/sim"
+	gameserverstats "github.com/khulnasoft/nextvim/vim-arcade/pkg/game-server-stats"
+	servermanagement "github.com/khulnasoft/nextvim/vim-arcade/pkg/server-management"
 )
 
 func TestMatchMakingCreateServer(t *testing.T) {

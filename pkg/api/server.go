@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
-	gameserverstats "go.khulnasoft.com/nextvim/vim-arcade/pkg/game-server-stats"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/packet"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
+	gameserverstats "github.com/khulnasoft/nextvim/vim-arcade/pkg/game-server-stats"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/packet"
 )
 
 var id = 0

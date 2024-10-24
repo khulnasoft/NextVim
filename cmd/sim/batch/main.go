@@ -6,10 +6,10 @@ import (
 	"path"
 	"time"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/e2e-tests/sim"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
-	gameserverstats "go.khulnasoft.com/nextvim/vim-arcade/pkg/game-server-stats"
-	servermanagement "go.khulnasoft.com/nextvim/vim-arcade/pkg/server-management"
+	"github.com/khulnasoft/nextvim/vim-arcade/e2e-tests/sim"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
+	gameserverstats "github.com/khulnasoft/nextvim/vim-arcade/pkg/game-server-stats"
+	servermanagement "github.com/khulnasoft/nextvim/vim-arcade/pkg/server-management"
 )
 
 func main() {

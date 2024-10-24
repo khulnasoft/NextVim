@@ -5,8 +5,8 @@ import (
 	"log/slog"
 	"time"
 
-	assert "go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
-	prettylog "go.khulnasoft.com/nextvim/vim-arcade/pkg/pretty-log"
+	assert "github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
+	prettylog "github.com/khulnasoft/nextvim/vim-arcade/pkg/pretty-log"
 )
 
 func KillContext(cancel context.CancelFunc) {

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log/slog"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/packet"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/packet"
 )
 
 var AMProxyDisallowed = fmt.Errorf("unable to connnect, please try again later")

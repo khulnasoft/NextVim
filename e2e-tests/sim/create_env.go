@@ -7,11 +7,11 @@ import (
 	"os"
 	"path"
 
-	amproxy "go.khulnasoft.com/nextvim/vim-arcade/pkg/am-proxy"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/api"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
-	gameserverstats "go.khulnasoft.com/nextvim/vim-arcade/pkg/game-server-stats"
-	servermanagement "go.khulnasoft.com/nextvim/vim-arcade/pkg/server-management"
+	amproxy "github.com/khulnasoft/nextvim/vim-arcade/pkg/am-proxy"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/api"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
+	gameserverstats "github.com/khulnasoft/nextvim/vim-arcade/pkg/game-server-stats"
+	servermanagement "github.com/khulnasoft/nextvim/vim-arcade/pkg/server-management"
 )
 
 type ServerCreationConfig struct {

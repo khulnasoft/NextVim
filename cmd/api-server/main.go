@@ -7,11 +7,11 @@ import (
 	"os"
 
 	"github.com/joho/godotenv"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/api"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/ctrlc"
-	gameserverstats "go.khulnasoft.com/nextvim/vim-arcade/pkg/game-server-stats"
-	prettylog "go.khulnasoft.com/nextvim/vim-arcade/pkg/pretty-log"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/api"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/ctrlc"
+	gameserverstats "github.com/khulnasoft/nextvim/vim-arcade/pkg/game-server-stats"
+	prettylog "github.com/khulnasoft/nextvim/vim-arcade/pkg/pretty-log"
 )
 
 func getId() string {

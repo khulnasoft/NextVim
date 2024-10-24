@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	quickmath "go.khulnasoft.com/nextvim/vim-arcade/pkg/quick-math"
+	quickmath "github.com/khulnasoft/nextvim/vim-arcade/pkg/quick-math"
 )
 
 type Vec2 = quickmath.Vec2

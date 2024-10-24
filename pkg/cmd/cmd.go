@@ -7,7 +7,7 @@ import (
 	"os"
 	"os/exec"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
 )
 
 type writerFn = func(b []byte) (int, error)

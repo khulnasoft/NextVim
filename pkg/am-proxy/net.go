@@ -6,8 +6,8 @@ import (
 	"log/slog"
 	"net"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/packet"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/packet"
 )
 
 type AMTCPConnection struct {

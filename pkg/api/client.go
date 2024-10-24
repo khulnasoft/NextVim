@@ -10,9 +10,9 @@ import (
 	"strings"
 	"sync"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/packet"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/utils"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/packet"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/utils"
 )
 
 type ClientState int

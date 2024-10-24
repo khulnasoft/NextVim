@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/packet"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/packet"
 )
 
 type TestEncoding struct { }

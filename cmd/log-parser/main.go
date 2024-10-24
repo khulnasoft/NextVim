@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
-	prettylog "go.khulnasoft.com/nextvim/vim-arcade/pkg/pretty-log"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
+	prettylog "github.com/khulnasoft/nextvim/vim-arcade/pkg/pretty-log"
 )
 
 type Log struct {

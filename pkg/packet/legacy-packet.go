@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
 )
 
 func LegacyClientId(id string) []byte {

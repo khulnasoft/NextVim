@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/api"
-	assert "go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
-	gameserverstats "go.khulnasoft.com/nextvim/vim-arcade/pkg/game-server-stats"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/api"
+	assert "github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
+	gameserverstats "github.com/khulnasoft/nextvim/vim-arcade/pkg/game-server-stats"
 )
 
 func AssertClients(state *ServerState, clients []*api.Client) {

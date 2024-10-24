@@ -7,9 +7,9 @@ import (
 	"io"
 	"log/slog"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
-	prettylog "go.khulnasoft.com/nextvim/vim-arcade/pkg/pretty-log"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/utils"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
+	prettylog "github.com/khulnasoft/nextvim/vim-arcade/pkg/pretty-log"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/utils"
 )
 
 const VERSION uint8 = 1

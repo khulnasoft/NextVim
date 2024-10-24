@@ -9,7 +9,7 @@ import (
 
 	"github.com/jmoiron/sqlx"
 	_ "github.com/tursodatabase/go-libsql"
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
 )
 
 func checkTableExists(db *sqlx.DB) bool {

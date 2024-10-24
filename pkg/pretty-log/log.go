@@ -14,7 +14,7 @@ import (
 	"strings"
 	"sync"
 
-	"go.khulnasoft.com/nextvim/vim-arcade/pkg/assert"
+	"github.com/khulnasoft/nextvim/vim-arcade/pkg/assert"
 )
 
 const (
